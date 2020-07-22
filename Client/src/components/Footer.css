@@ -1,0 +1,43 @@
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+color: seagreen;}
+
+#sticky-footer {
+   flex-shrink: none;
+  background-color: rgb(7, 7, 7);
+  color: rgb(101, 58, 58);
+  /* flex-shrink: initial; */
+   width: 100vw;
+}
+small{
+    flex-shrink: none;
+    color: black;
+  }
+/* Other Classes for Page Styling */
+
+body{
+  background: #225285;
+  background: linear-gradient(to right, white,white);
+  /* background: linear-gradient(to right, #0062E6, #33AEFF); */
+}
+
+#footer {
+    margin-bottom: 0px;
+    padding-bottom: 0;
+    height: 10PX;
+    position:fixed;
+   width: 100;
+}
+
+#welcome{
+    padding-top: 10%;
+    padding-left: 40%;
+    color: rgb(89, 154, 232);;
+    height: 75vh;
+
+  }  
