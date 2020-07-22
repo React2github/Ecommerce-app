@@ -7,9 +7,14 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import store from './store'
 
+
+// import config from './config';
+// Axios.get(`${config.apiUrl}/my-endpoint`)
+
 // import allReducers from './reducers'
 // import { createStore,  applyMiddleware, compose } from 'redux';
 import { Provider } from 'react-redux'
+import Axios from 'axios';
 
 // const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 // const store = createStore(

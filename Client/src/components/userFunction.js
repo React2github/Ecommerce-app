@@ -1,8 +1,9 @@
 import axios from 'axios'
+import config from "../config";
 
 export const register = newUser => {
   return axios
-    .post('register', {
+    .post(`"${config.apiUrl}/register"`, {
       first_name: newUser.first_name,
       last_name: newUser.last_name,
       email: newUser.email,
@@ -15,7 +16,7 @@ export const register = newUser => {
 
 export const login = user => {
   return axios
-    .post('/login', {
+    .post(`"${config.apiUrl}/login"`, {
       email: user.email,
       password: user.password
     })
