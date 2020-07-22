@@ -4,7 +4,7 @@ import config from "../config";
 const productLists = () => async (dispatch) => {
    try {
     dispatch ({type: "PRODUCTS_REQUEST"});
-    const {data} = await axios.get(`"${config.apiUrl}/api/products"`);
+    const {data} = await axios.get(`${config.apiUrl}/api/products`);
     dispatch ({type: "PRODUCTS_SUCESS", payload: data});
 
    }
@@ -17,7 +17,7 @@ const productLists = () => async (dispatch) => {
 const productDetails = (productId) => async (dispatch) => {
     try {
         dispatch ({type: "FETCH_PRODUCTDETAIL",  payload: productId});
-        const { data } = await axios.get(`"${config.apiUrl}/api/products/"` + productId);
+        const { data } = await axios.get(`${config.apiUrl}/api/products/` + productId);
         dispatch ({type: "FETCH_PRODUCTDETAIL_SUCESS", payload: data});
 
     } catch (error) {
