@@ -267,7 +267,10 @@ a>.rating>span:last-child {
 
 .button:hover {
     border: 0.1rem #404040 solid;
-    color: red;
+}
+
+#CartBtn:hover {
+color: red;
 }
 
 .button.primary {
