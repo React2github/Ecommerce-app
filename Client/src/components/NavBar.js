@@ -42,9 +42,9 @@ function NavBar() {
                         <FaHome id='contacticon' color='rgb(225, 203, 78' size={37} />
                         </Link>
                             
-                            <Link to='/submission'>Submission
+                            {/* <Link to='/submission'>Submission
                              <FaEnvelope  id='contacticon' color='rgb(225, 203, 78' size={37} />
-                            </Link>
+                            </Link> */}
 
             <Link to="/api/products">
               Products
