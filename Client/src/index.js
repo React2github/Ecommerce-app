@@ -7,6 +7,9 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import store from './store'
 
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods: POST, GET, OPTIONS, PUT, DELETE');
+header('Access-Control-Allow-Headers: Origin, Content-Type, Accept, Authorization, X- Request-With');
 
 // import config from './config';
 // Axios.get(`${config.apiUrl}/my-endpoint`)
