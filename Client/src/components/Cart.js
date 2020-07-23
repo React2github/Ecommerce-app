@@ -106,7 +106,7 @@ const transactionCanceled = () => {
                       )}
                     </select>
                     <button type="button" className="button" onClick={() => removeFromCartHandler(item.product)} >
-                      Delete
+                      Remove
                     </button>
                   </div>
                 </div>

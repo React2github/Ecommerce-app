@@ -10,12 +10,14 @@ class Home extends Component {
                 <div>
                 <NavBar />
                 
+                <div>
                 <h3 id='welcome'>Welcome To
         
-                 Digital ShoppingCart
+                 ShopCentral
                 <br></br>
                         <FaCartArrowDown id="homecart" color='rgb(225, 203, 78' size={200} />
                     </h3> 
+                </div>
                     <Footer />
                 </div>
         )
