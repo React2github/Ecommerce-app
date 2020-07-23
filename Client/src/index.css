@@ -273,6 +273,10 @@ a>.rating>span:last-child {
 color: red;
 }
 
+#home {
+margin-left: 30px;
+}
+
 .button.primary {
     background-color: #f0c040;
 }

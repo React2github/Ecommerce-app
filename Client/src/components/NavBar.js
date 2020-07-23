@@ -38,7 +38,7 @@ function NavBar() {
                 <div>
                     <div id="navlinks">
                         <nav id="nav" className="navbar">
-                        <Link to='/'>Home
+                        <Link to='/' id="home">Home
                         <FaHome id='contacticon' color='rgb(225, 203, 78' size={37} />
                         </Link>
                             
