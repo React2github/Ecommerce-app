@@ -1,5 +1,7 @@
+const proxyurl = "https://cors-anywhere.herokuapp.com/";
+
 var config = {
-    apiUrl: 'https://enigmatic-ravine-46914.herokuapp.com/' || 'https:localhost:3001'
+    apiUrl: proxyurl + process.env.apiUrl || 'https:localhost:3001'
   }
 
   module.exports = config
