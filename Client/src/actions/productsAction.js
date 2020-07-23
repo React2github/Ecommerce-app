@@ -4,7 +4,7 @@ import config from "../config";
 const productLists = () => async (dispatch) => {
    try {
     dispatch ({type: "PRODUCTS_REQUEST"});
-    const {data} = await axios.get(`${config.apiUrl}`);
+    const {data} = await axios.get(`${config}`);
     dispatch ({type: "PRODUCTS_SUCESS", payload: data});
 
    }
