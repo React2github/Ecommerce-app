@@ -39,5 +39,8 @@ body{
     padding-left: 40%;
     color: rgb(89, 154, 232);;
     height: 75vh;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: unset;
 
   }  
